@@ -1,0 +1,68 @@
+:root{
+    --text-color: #434455;
+    --white-background: #FFFFFF;
+    --dark-color: #2E2F42;
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+}
+button{
+    cursor: pointer;
+}
+ul, ol {
+    list-style-type: none;
+}
+h1{
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+    text-align: center;
+        letter-spacing: 0.02em;
+              color: var(--white-background);
+}
+.main-title{
+    background-color: var(--dark-color);
+    width: 1440 px;
+    height: 600 px;
+}
+.page-nav .link{
+text-decoration: none;
+flex-direction: row;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+       letter-spacing: 0.02em;
+       color: var(--text-color);
+}
+.page-nav .link:active{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+                letter-spacing: 0.02em;
+            color: var(--pressed-state);
+}
+.address .link{
+    text-decoration: none;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+                  letter-spacing: 0.02em;
+              color: var(--text-color)
+}
+.address .link:active{
+    color: var(--pressed-state);
+    text-decoration: underline;
+}
+.nav-logo{
+    text-decoration: none;
+}
+.order-button{
+    color: var(--white-background);
+    background-color: var(--primary-brand);
+}
+.order-button:hover{
+    background-color: var(--pressed-state);
+}
