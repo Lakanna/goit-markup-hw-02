@@ -25,7 +25,9 @@ h1{
     letter-spacing: 0.02em;
     color: var(--white-background);
 }
-
+.address{
+    font-style: normal;
+}
 .link{
     text-decoration: none;
 }
@@ -51,7 +53,7 @@ h1{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--text-color);
+    color: var(--dark-color);
 }
 .list-link:hover,
 .list-link:focus{
@@ -74,7 +76,7 @@ h1{
     text-decoration: underline;
 }
 .nav-logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
      line-height: 1.17;
@@ -84,14 +86,14 @@ h1{
     
 }
 .accent{
-    color: var(--text-color);
+    color: var(--dark-color);
 }
 .accent-footer{
     color: var(--light-color);
 }
 
 .order-button{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -102,7 +104,8 @@ h1{
         color: var(--white-background);
     background-color: var(--primary-brand);
 }
-.order-button:hover{
+.order-button:hover,
+.order-button:focus{
     background-color: var(--pressed-state);
 }
 .featur{
@@ -124,7 +127,8 @@ letter-spacing: 0.02em;
    line-height: 1.11;
    text-align: center;
    letter-spacing: 0.02em;
-   text-transform: capitalize; 
+   text-transform: capitalize;
+   color: var(--dark-color); 
 }
 .team-mates{
  font-weight: 500;
