@@ -5,6 +5,7 @@
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
     --light-color: #F4F4FD;
+    --accent-color: #E7E9FC;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -48,15 +49,15 @@ h1{
 .list{
     list-style: none;
 }
-.list-link{
+.nav-list{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark-color);
 }
-.list-link:hover,
-.list-link:focus{
+.nav-list:hover,
+.nav-list:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -130,11 +131,15 @@ letter-spacing: 0.02em;
    text-transform: capitalize;
    color: var(--dark-color); 
 }
+.our-team{
+    background-color: var(--light-color);
+}
 .team-mates{
  font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-letter-spacing: 0.02em;   
+letter-spacing: 0.02em;
+color: var(--dark-color);   
 }
 .prof{
    font-weight: 400;
@@ -142,13 +147,40 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em; 
 }
-footer{
+.team-cards{
+    background-color: var(--white-background);
+    width: 264;
+}
+.button-filtr{
+    background-color: var(--light-color);
+    color: var(--primary-brand);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.button-filtr:hover,
+.button-filtr:focus{
+background-color: var(--pressed-state);
+    color: var(--white-background);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+.page-footer{
     background-color: var(--dark-color);
 }
 .footer-text{
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--light-color)
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-color)
 }
