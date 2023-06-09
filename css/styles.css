@@ -97,7 +97,6 @@ h1{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    align-items: center;
     letter-spacing: 0.04em;
     color: var(--white-background);
     background-color: var(--primary-brand);
@@ -118,7 +117,7 @@ h1{
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   color: var(--dark-color);   
+   color: var(--text-color);   
 }
 
 .section-name{
