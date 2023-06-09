@@ -95,14 +95,14 @@ h1{
 
 .order-button{
     font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.04em;
-        color: var(--white-background);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--white-background);
     background-color: var(--primary-brand);
 }
 .order-button:hover,
@@ -111,15 +111,17 @@ h1{
 }
 .featur{
     font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
 }
 .featur-body{
- font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;   
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: var(--dark-color);   
 }
 
 .section-name{
@@ -143,14 +145,13 @@ color: var(--dark-color);
 }
 .prof{
    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em; 
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em; 
 }
 .team-cards{
     background-color: var(--white-background);
-    width: 264;
-}
+    }
 .button-filtr{
     background-color: var(--light-color);
     color: var(--primary-brand);
