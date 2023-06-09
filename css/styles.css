@@ -34,8 +34,6 @@ h1{
 }
 .main{
     background-color: var(--dark-color);
-    width: 1440 px;
-    height: 600 px;
 }
 .main-title{
     font-weight: 700;
@@ -80,7 +78,7 @@ h1{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-     line-height: 1.17;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--primary-brand);
@@ -99,7 +97,6 @@ h1{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
     color: var(--white-background);
@@ -138,16 +135,17 @@ h1{
 }
 .team-mates{
  font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--dark-color);   
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ color: var(--dark-color);   
 }
 .prof{
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
-   letter-spacing: 0.02em; 
+   letter-spacing: 0.02em;
+   color: var(--text-color); 
 }
 .team-cards{
     background-color: var(--white-background);
@@ -155,23 +153,21 @@ color: var(--dark-color);
 .button-filtr{
     background-color: var(--light-color);
     color: var(--primary-brand);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
 }
 .button-filtr:hover,
 .button-filtr:focus{
-background-color: var(--pressed-state);
+    background-color: var(--pressed-state);
     color: var(--white-background);
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
 }
